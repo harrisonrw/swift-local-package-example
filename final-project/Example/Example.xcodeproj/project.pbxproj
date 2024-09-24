@@ -8,6 +8,7 @@
 
 /* Begin PBXFileReference section */
 		E18B00722CA3573600BAEA54 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E18B00A82CA36A0700BAEA54 /* MyLibrary */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = MyLibrary; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,6 +33,7 @@
 		E18B00692CA3573600BAEA54 = {
 			isa = PBXGroup;
 			children = (
+				E18B00A82CA36A0700BAEA54 /* MyLibrary */,
 				E18B00742CA3573600BAEA54 /* Example */,
 				E18B00732CA3573600BAEA54 /* Products */,
 			);
