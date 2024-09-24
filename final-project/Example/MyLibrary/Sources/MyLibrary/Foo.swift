@@ -7,6 +7,7 @@
 
 import Foundation
 
-struct Foo {
-    var bar = 0
+public struct Foo {
+    public var bar = 0
+    public init() { }
 }

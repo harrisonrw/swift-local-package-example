@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		E18B00AB2CA36E4300BAEA54 /* MyLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = E18B00AA2CA36E4300BAEA54 /* MyLibrary */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		E18B00722CA3573600BAEA54 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E18B00A82CA36A0700BAEA54 /* MyLibrary */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = MyLibrary; sourceTree = "<group>"; };
@@ -24,6 +28,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E18B00AB2CA36E4300BAEA54 /* MyLibrary in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +72,7 @@
 			);
 			name = Example;
 			packageProductDependencies = (
+				E18B00AA2CA36E4300BAEA54 /* MyLibrary */,
 			);
 			productName = Example;
 			productReference = E18B00722CA3573600BAEA54 /* Example.app */;
@@ -96,6 +102,9 @@
 			);
 			mainGroup = E18B00692CA3573600BAEA54;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				E18B00A92CA36E4300BAEA54 /* XCLocalSwiftPackageReference "MyLibrary" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = E18B00732CA3573600BAEA54 /* Products */;
 			projectDirPath = "";
@@ -326,6 +335,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		E18B00A92CA36E4300BAEA54 /* XCLocalSwiftPackageReference "MyLibrary" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = MyLibrary;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E18B00AA2CA36E4300BAEA54 /* MyLibrary */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MyLibrary;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E18B006A2CA3573600BAEA54 /* Project object */;
 }
